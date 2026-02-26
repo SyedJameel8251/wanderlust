@@ -57,7 +57,7 @@ const sessionOptions = {
 };
 
 app.get("/" , (req,res) =>{
-    res.send("hi im root");
+    res.send("/listings");
 });
 
 app.use(session(sessionOptions));
